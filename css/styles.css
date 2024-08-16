@@ -167,6 +167,69 @@ nav img {
   max-height: 600px;
 }
 
+/* Takeaways_section */
+.Takeaways_section {
+  max-width: var(--container-width);
+  margin: auto;
+  background-color: #ffc05a;
+}
+.Takeaways_section .Takeaways_section_content {
+  text-align: center;
+  background-color: #fc5d66;
+}
+.Takeaways_section .card {
+  text-align: center;
+  border: #272d35 1px solid;
+}
+.Takeaways_section .Takeaways_section_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 35px;
+}
+.details_and_information {
+  max-width: var(--container-width);
+  background-color: beige;
+  margin: auto;
+}
+.cours_details {
+  gap: 50px;
+}
+.details_and_information .cours_details img {
+  max-width: 500px;
+  max-height: 400px;
+}
+
+/* stats_section */
+.stats_section {
+  background-color: #b1d1fb;
+  text-align: center;
+}
+.stats_section img {
+  max-width: 500px;
+  max-height: 400px;
+  margin-left: 100px;
+}
+
+.statustic_numbers {
+  gap: 5px;
+  justify-content: center;
+}
+.Subscribe {
+  max-width: var(--container-width);
+  margin: 50px auto;
+  background-color: antiquewhite;
+  text-align: center;
+}
+.Subscribe button {
+  display: block;
+  margin: auto;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
 /* Media Queries */
 @media (max-width: 1200px) {
 }
