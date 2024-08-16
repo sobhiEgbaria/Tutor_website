@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #fc5d66;
+  --secondary-color: #ffc05a;
+  --light-color: #f9fafb;
+  --dark-color: #272d35;
+
+  --container-width-large: 1400px;
+  --container-width: 1100px;
+  --container-width-small: 900px;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  max-width: var(--container-width-large);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* utiletes class */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+/* .flex_column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+} */
+
+/* Nav Bar */
+header nav {
+  background-color: #fc5d66;
+  max-width: var(--container-width);
+  margin: auto;
+}
+
+.nav_content a {
+  color: white;
+}
+
+nav img {
+  width: 80px;
+  height: 34px;
+}
+
+/* hero section */
+
+.hero {
+  max-width: var(--container-width);
+  margin: auto;
+  background-color: #ffc05a;
+  height: 700px;
+  gap: 50px;
+}
+
+/* What Will You Learn? section */
+.learn_section {
+  max-width: var(--container-width);
+  background-color: aqua;
+  margin: auto;
+}
+
+.learn_section .learn_content {
+  text-align: center;
+  max-width: 50%;
+  margin: auto;
+  background-color: aquamarine;
+}
+.learn_section .learn_content h2 {
+  padding: 70px 0px 30px 0px;
+}
+.learn_section .learn_content p {
+  padding-bottom: 50px;
+}
+
+.learn_section .learn_gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 35px;
+}
+
+/* curses section */
+.Course_section {
+  max-width: var(--container-width);
+  background-color: aqua;
+  margin: auto;
+}
+
+.Course_section .Course_content {
+  text-align: center;
+  max-width: 50%;
+  margin: auto;
+  background-color: aquamarine;
+}
+.Course_section .Course_content h2 {
+  padding: 70px 0px 30px 0px;
+}
+.Course_section .Course_content p {
+  padding-bottom: 50px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
