@@ -45,14 +45,6 @@ img {
   gap: 15px;
 }
 
-/* .flex_column {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  gap: 15px;
-} */
-
 /* Nav Bar */
 header nav {
   background-color: #fc5d66;
